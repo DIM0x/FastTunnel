@@ -1,6 +1,6 @@
 #!/bin/bash
-projects=("FastTunnel.Client" "FastTunnel.Server")
-plates=("win-x64" "win-x86" "win-arm" "win-arm64" "linux-x64" "linux-musl-x64" "linux-arm" "linux-arm64" "osx-x64")
+projects=("FastTunnel.Client")
+plates=("linux-musl-arm" "linux-arm")
 for project in ${projects[*]}; do
     echo
     echo "=========开始发布：${project} ========="
