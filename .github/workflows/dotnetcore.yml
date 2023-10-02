@@ -1,9 +1,7 @@
 name: Build
 
 on:
-  push:
-    branches:
-    - v2
+  workflow_dispatch:
 
 env:
   # 设置 docker 镜像名
